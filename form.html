@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Form Example</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input[type='text'],
+      input[type='email'],
+      input[type='date'],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+      }
+
+      input[type='radio'] {
+        margin-right: 10px;
+      }
+
+      input[type='submit'] {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+
+      input[type='submit']:hover {
+        background-color: #45a049;
+      }
+      .gender {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Subscribe Information</h2>
+
+    <form>
+      <label for="firstName">First Name:</label>
+      <input
+        type="text"
+        id="firstName"
+        name="firstName"
+      />
+
+      <label for="lastName">Last Name:</label>
+      <input
+        type="text"
+        id="lastName"
+        name="lastName"
+      />
+      <label>Gender:</label>
+      <div class="gender">
+        <input
+          type="radio"
+          id="male"
+          name="gender"
+          value="male"
+        />
+        <label for="male">Male</label>
+        <input
+          type="radio"
+          id="female"
+          name="gender"
+          value="female"
+        />
+        <label for="female">Female</label>
+      </div>
+
+      <label for="email">Email:</label>
+      <input
+        type="email"
+        id="email"
+        name="email"
+      />
+
+      <label for="date">Date of Birth:</label>
+      <input
+        type="date"
+        id="date"
+        name="date"
+      />
+
+      <label for="address">Address:</label>
+      <textarea
+        id="address"
+        name="address"
+      ></textarea>
+
+      <input
+        type="submit"
+        value="Submit"
+      />
+    </form>
+  </body>
+</html>

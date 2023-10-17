@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Youtube Clone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.googleapis.com"
+    />
+    <link
+      rel="preconnect"
+      href="https://fonts.gstatic.com"
+      crossorigin
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Raleway:ital,wght@1,500&family=Satisfy&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .header {
+        display: flex;
+      }
+      .header h1 {
+        padding-top: 10px;
+        padding-left: 5px;
+        cursor: pointer;
+      }
+      .header img {
+        padding-left: 2rem;
+      }
+      main nav {
+        padding-bottom: 2rem;
+      }
+      main p {
+        font-weight: 300;
+        font-size: medium;
+      }
+      span {
+        padding: 1.5rem;
+        color: #66686b;
+      }
+      span:hover {
+        color: rgb(35, 95, 207);
+      }
+      .icons{
+        cursor: pointer;
+      }
+      .description {
+        display: flex;
+        
+        margin-top:20px ;
+      }
+      .sub {
+        padding-top: -20px;
+        color: rebeccapurple;
+      }
+      .subscribe {
+        display: flex;
+        cursor: pointer;
+      }
+      .subscribe i {
+        margin-left: 50%;
+      }
+      .sub-btn {
+        margin-top: 50px;
+      }
+      .sub-btn button {
+        color: #2e3033;
+        background-color: #c2c4c9;
+        padding: 10px 18px;
+        font-weight: bold;
+        border: none;
+        cursor: pointer;
+      }
+      .btn:hover {
+        background-color: rgb(128, 7, 7);
+        color: whitesmoke;
+      }
+      .icons-all:hover {
+        color: rgb(218, 96, 26);
+      }
+      .not_bell {
+        margin-top: 35px;
+        width: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="header">
+      <h1><i class="fa-solid fa-bars"></i></h1>
+      <a href="https://www.youtube.com/">
+        <img
+          src="./image/logo.png"
+          alt=""
+          style="width: 100px"
+        />
+      </a>
+    </header>
+    <main>
+      <nav>
+        <input
+          type="text"
+          placeholder="search"
+        />
+        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+      </nav>
+      <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/XuwnwdgphTk?si=l3AnJ-0wfpCxdFK5"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <p>
+        Python Tutorial for Beginners -Python full course for beginners in tamil
+        2023 | Start your python web Tutorial for Beginners | 2023 Python
+      </p>
+      <div class="icons">
+        <span>
+          <i
+            class="icons-all fa-solid fa-thumbs-up"
+            style="color: #66686b"
+          ></i>
+          111k
+        </span>
+        <span>
+          <i
+            class="icons-all fa-solid fa-thumbs-down"
+            style="color: #66686b"
+          ></i>
+          502
+        </span>
+        <span>
+          <i
+            class="icons-all fa-solid fa-share"
+            style="color: #66686b"
+          ></i>
+          SHARE
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-bars"
+            style="color: #64676d"
+          ></i>
+        </span>
+        <span>
+          <i
+            class="fa-solid fa-ellipsis"
+            style="color: #636569"
+          ></i>
+        </span>
+      </div>
+      <div class="description">
+        <img
+          src="./image/main_logo.png"
+          alt="Python_Dev"
+          style="width: 100px; height: 100px;cursor: pointer;"
+        />
+        <div>
+          <span class="subscribe">
+            <div>
+              <h2>Python_Dev</h2>
+
+              <h5 style="margin-top: -10px">Published on jun 2, 2019</h5>
+            </div>
+            <span
+              ><i
+                class="fa-solid fa-circle-check"
+                style="color: #6e737c; margin-left: -25px; margin-top: 2px"
+              ></i
+            ></span>
+          </span>
+        </div>
+        <div class="sub-btn">
+          <a href="./form.html">
+            <button class="btn">SUBSCRIBED 1M</button>
+          </a>
+        </div>
+        <span class="not_bell">
+          <i
+            class="icons-all fa-solid fa-bell"
+            style="color: #6e7277"
+          ></i>
+        </span>
+      </div>
+      <p>
+        <h4>554 views 16 Oct 2023 </h4>
+        Learn Python programming in Tamil with our
+        comprehensive beginner's guide for 2023! This Python tutorial covers all
+      </p>
+      <a href="#">
+        Show More
+      </a>
+    </main>
+  </body>
+</html>
